@@ -8,7 +8,7 @@ import {ISPGNFT} from "./story-protocol/periphery/interfaces/ISPGNFT.sol";
 import {IPPassport} from "./IPPassport.sol";
 
 /// @notice Register an NFT as an IP Account.
-contract PassportRegistrar {
+contract PassportRegistry {
     IPAssetRegistry public immutable IP_ASSET_REGISTRY;
     RegistrationWorkflows public immutable REGISTRATION_WORKFLOWS;
     IPPassport public immutable SIMPLE_NFT;
